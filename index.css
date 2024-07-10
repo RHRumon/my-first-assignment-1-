@@ -225,3 +225,27 @@ a{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+ /* footer style */
+
+.footer-description{
+    background-image: url(Images/handshake.jpg);
+    height: 500px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 30px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 100px;
+    
+}
+.footer-title{
+    font-size: 30px;
+    color: white;
+}
+
+footer  .footer-text{
+    margin-top: 20px;
+    font-size: large;
+    color: wheat;
+}
