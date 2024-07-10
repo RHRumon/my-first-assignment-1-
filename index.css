@@ -9,11 +9,15 @@ body {
   font-family: Azeret Mono;
 }
 .banner-section-container {
-  background-image: url(Images/spider-web-7599664_1280.jpg);
+  background-image: url(Images/pexels-philippedonn-1169754.jpg);
+  background-repeat: no-repeat;
+  /* background-position-x: center; */
   /* background-position: center; */
   /* margin: 0 auto; */
+  background-size: contain;
+  background-size: cover;
   height: 500px;
-  /* width: 85%; */
+  /* width: 3000px; */
   /* border-radius: 20px; */
   /* margin-top: 50px; */
   padding-top: 20px;
@@ -34,25 +38,27 @@ body {
   /* position: static; */
   margin-top: 40px;
   font-size: xx-large;
-  color: black;
+  color:azure;
 }
 .banner-description {
   margin-top: 30px;
   font-size: larger;
+  color: rgb(14, 239, 247);
 }
 
 /* second page */
 
 .second-page {
   margin-top: 80px;
-  background-color: cadetblue;
+  background-color: rgb(209, 233, 234);
   /* background-position: center; */
   height: 1400px;
   margin-left: 148px;
   margin-right: 148px;
   margin-top: 200px;
   margin-bottom: 200px;
-  padding: 80px 97px;
+  padding: 70px 97px;
+  border-radius: 20px;
 }
 
 .second-page-div1 {
@@ -63,12 +69,50 @@ body {
 }
 
 .second-page-title {
-  font-size: xx-large;
+  font-size: 35px;
   text-align: center;
+  margin-bottom: 10px;
+}
+.second-page-sub-title-1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.second-page-sub-text-1{
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 .second-page-description {
   text-align: center;
+  font-size: 20px;
 }
+.second-page-sub-title-2{
+    margin-top: 30px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+
+.second-page-sub-text-2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+.second-page-sub-title-3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.second-page-sub-text-3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+.second-page-btn-2{
+    margin-left: 170px;
+}
+
 .second-page-image-1 {
   max-width: 100%;
   height: auto;
@@ -248,4 +292,22 @@ footer  .footer-text{
     margin-top: 20px;
     font-size: large;
     color: wheat;
+}
+
+footer input{
+    margin-top: 240px;
+    background-color: black;
+    color: white;
+    margin-top: 240px;
+    padding: 21px 24px 17px 24px;
+    font-size: x-large;
+    width: 600px;
+}
+footer button{
+    margin-top: 240px;
+    background-color: black;
+    color: white;
+    margin-top: 240px;
+    padding: 21px 24px 17px 24px;
+    font-size: x-large;
 }
