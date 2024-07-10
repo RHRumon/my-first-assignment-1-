@@ -311,3 +311,22 @@ footer button{
     padding: 21px 24px 17px 24px;
     font-size: x-large;
 }
+
+footer .last-section{
+    background-color: aqua;
+    height: 100px;
+}
+footer .last-thing{
+    background-color:rgb(185, 209, 144);
+     margin-left: 200px;
+     margin-right: 190px;
+     padding: 20px;
+     
+}
+.flex-korbo{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    margin-right: 200px;
+    border-radius: 30px;
+}
